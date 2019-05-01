@@ -1,0 +1,134 @@
+{
+  "name": "☁️ Design System",
+  "description": "Simplest way to manage your Design System from Cloud :)",
+  "icon": "sketch-design-system-in-cloud.png",
+  "author": "Pratik Shah",
+  "email": "hello@pratikshah.website",
+  "appcast": "https://raw.githubusercontent.com/pratikjshah/sketch-cloud-design-system/master/appcast.xml",
+  "updateURL": "https://github.com/pratikjshah/sketch-cloud-design-system/archive/master.zip",
+  "downloadURL": "https://github.com/pratikjshah/sketch-cloud-design-system/archive/master.zip",
+  "homepage": "http://pratikshah.website/",
+  "version": "1.0.1",
+  "identifier": "website.pratikshah.sketch-cloud-design-system",
+  "compatibleVersion": "52",
+  "bundleVersion": "1",
+  "commands": [
+    {
+      "script": "commands.js",
+      "handlers": {
+        "run": "onShowStickers"
+      },
+      "name": "🔍 View Design System",
+      "shortcut": "cmd shift d",
+      "identifier": "show_stickers",
+      "description": "Show or hide Design System window.",
+      "icon": "icon-menu.png"
+    },
+    {
+      "script": "commands.js",
+      "handlers": {
+        "run": "onClearCache"
+      },
+      "name": "🧹 Clear Library Index",
+      "identifier": "clear_cache",
+      "description": "Clear the Stickers library index for troubleshooting purposes.",
+      "icon": "icon-menu.png"
+    },
+    {
+      "script": "handler.js",
+      "handler": "addGDPLibrary",
+      "shortcut": "",
+      "name": "Add GDP Library",
+      "identifier": "addGDPLibrary",
+      "icon": ""
+    },
+    {
+      "script": "handler.js",
+      "handler": "openGDPTemplate",
+      "shortcut": "",
+      "name": "Open GDP Template",
+      "identifier": "openGDPTemplate",
+      "icon": ""
+    },
+    {
+      "script": "handler.js",
+      "handler": "addDemoLibrary",
+      "shortcut": "",
+      "name": "Add Demo Library",
+      "identifier": "addDemoLibrary",
+      "icon": ""
+    },
+    {
+      "script": "handler.js",
+      "handler": "openDemoTemplate",
+      "shortcut": "",
+      "name": "Open Demo Template",
+      "identifier": "openDemoTemplate",
+      "icon": ""
+    },
+    {
+      "script": "handler.js",
+      "handler": "checkLibraryUpdates",
+      "shortcut": "",
+      "name": "🔄 Force Check Library Updates",
+      "identifier": "checkLibraryUpdates",
+      "icon": ""
+    },
+    {
+      "script": "handler.js",
+      "handler": "reportIssue",
+      "shortcut": "",
+      "name": "Report issue",
+      "identifier": "reportIssue"
+    },
+    {
+      "script": "handler.js",
+      "handler": "checkForUpdate",
+      "shortcut": "",
+      "name": "Check for Plugin update",
+      "identifier": "checkForUpdate"
+    },
+    {
+      "script": "handler.js",
+      "handler": "aboutPratikShah",
+      "shortcut": "",
+      "name": "About Pratik Shah",
+      "identifier": "aboutPratikShah"
+    }
+  ],
+  "menu": {
+    "items": [
+      "show_stickers",
+      "-",
+      {
+        "title": "Add Library",
+        "items": [
+          "addGDPLibrary",
+          "addDemoLibrary"
+        ]
+      },
+      {
+        "title": "Add Template",
+        "items": [
+          "openGDPTemplate",
+          "openDemoTemplate"
+        ]
+      },
+      "-",
+      "clear_cache",
+      "checkLibraryUpdates",
+      "-",
+      {
+        "title": "Settings",
+        "items": [
+          "reportIssue",
+          "checkForUpdate",
+          "-",
+          "aboutPratikShah"
+        ]
+      }
+    ],
+    "title": "☁️ Design System"
+  },
+  "disableCocoaScriptPreprocessor": true
+}
