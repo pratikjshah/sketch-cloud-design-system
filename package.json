@@ -1,7 +1,7 @@
 {
   "name": "sketch-cloud-design-system",
   "description": "Simplest way to manage your Design System from Cloud :)",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "engines": {
     "sketch": ">=49.0"
   },

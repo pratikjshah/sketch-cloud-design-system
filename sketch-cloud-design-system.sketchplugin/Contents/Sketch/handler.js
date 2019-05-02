@@ -1827,7 +1827,7 @@ module.exports = g;
 /*!************************!*\
   !*** ./src/handler.js ***!
   \************************/
-/*! exports provided: onAction, addGDPLibrary, addDemoLibrary, addSCMLibrary, openGDPTemplate, openDemoTemplate, checkLibraryUpdates, checkForUpdate, setupLibrary, addOrEnableLibrary, addNewLibrary, enableLibraryIfAlreadyAdded, addPalette, loadPalette, setupTemplate, reportIssue, aboutPratikShah, manageDailyUpdateCheck, manageManualUpdate, manageUpdate, init, showMsg, openUrlInBrowser, saveLocalData, readLocalData, networkRequest, trackEvent */
+/*! exports provided: onAction, addGDPLibrary, addDemoLibrary, addLDSLibrary, addSCMLibrary, openGDPTemplate, openDemoTemplate, checkLibraryUpdates, checkForUpdate, setupLibrary, addOrEnableLibrary, addNewLibrary, enableLibraryIfAlreadyAdded, addPalette, loadPalette, setupTemplate, reportIssue, aboutPratikShah, manageDailyUpdateCheck, manageManualUpdate, manageUpdate, init, showMsg, openUrlInBrowser, saveLocalData, readLocalData, networkRequest, trackEvent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1835,6 +1835,7 @@ __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(fetch) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "onAction", function() { return onAction; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "addGDPLibrary", function() { return addGDPLibrary; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "addDemoLibrary", function() { return addDemoLibrary; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "addLDSLibrary", function() { return addLDSLibrary; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "addSCMLibrary", function() { return addSCMLibrary; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "openGDPTemplate", function() { return openGDPTemplate; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "openDemoTemplate", function() { return openDemoTemplate; });
@@ -1863,7 +1864,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var sketch__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(sketch__WEBPACK_IMPORTED_MODULE_0__);
 
 var globalContext;
-var remoteManifestUrl = "https://raw.githubusercontent.com/pratikjshah/sketch-cloud-library/master/cloud-sketch-library.sketchplugin/Contents/Sketch/manifest.json";
+var remoteManifestUrl = "https://raw.githubusercontent.com/pratikjshah/sketch-cloud-design-system/master/sketch-cloud-design-system.sketchplugin/Contents/Resources/user.config";
 var localDataPath;
 var userConfig;
 var pluginRoot;
@@ -1876,17 +1877,21 @@ function onAction(context) {
   console.log("Action: " + context.action);
 }
 function addGDPLibrary(context) {
-  init(context);
-  setupLibrary("basics");
+  init(context); //setupLibrary("basics");
+
   setupLibrary("gdp");
 }
 function addDemoLibrary(context) {
   init(context);
   setupLibrary("demo");
 }
-function addSCMLibrary(context) {
+function addLDSLibrary(context) {
   init(context);
-  setupLibrary("basics");
+  setupLibrary("lds-beta");
+}
+function addSCMLibrary(context) {
+  init(context); //setupLibrary("basics");
+
   setupLibrary("scm");
 }
 function openGDPTemplate(context) {
@@ -2239,6 +2244,7 @@ that['addGDPLibrary'] = __skpm_run.bind(this, 'addGDPLibrary');
 that['onRun'] = __skpm_run.bind(this, 'default');
 that['openGDPTemplate'] = __skpm_run.bind(this, 'openGDPTemplate');
 that['addDemoLibrary'] = __skpm_run.bind(this, 'addDemoLibrary');
+that['addLDSLibrary'] = __skpm_run.bind(this, 'addLDSLibrary');
 that['openDemoTemplate'] = __skpm_run.bind(this, 'openDemoTemplate');
 that['checkLibraryUpdates'] = __skpm_run.bind(this, 'checkLibraryUpdates');
 that['reportIssue'] = __skpm_run.bind(this, 'reportIssue');

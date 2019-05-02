@@ -8,7 +8,7 @@
   "updateURL": "https://github.com/pratikjshah/sketch-cloud-design-system/archive/master.zip",
   "downloadURL": "https://github.com/pratikjshah/sketch-cloud-design-system/archive/master.zip",
   "homepage": "http://pratikshah.website/",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "identifier": "website.pratikshah.sketch-cloud-design-system",
   "compatibleVersion": "52",
   "bundleVersion": "1",
@@ -60,6 +60,14 @@
     },
     {
       "script": "handler.js",
+      "handler": "addLDSLibrary",
+      "shortcut": "",
+      "name": "Add Living Design System Library",
+      "identifier": "addLDSLibrary",
+      "icon": ""
+    },
+    {
+      "script": "handler.js",
       "handler": "openDemoTemplate",
       "shortcut": "",
       "name": "Open Demo Template",
@@ -104,6 +112,7 @@
         "title": "Add Library",
         "items": [
           "addGDPLibrary",
+          "addLDSLibrary",
           "addDemoLibrary"
         ]
       },

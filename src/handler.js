@@ -1,7 +1,7 @@
 import sketch from 'sketch'
 
 var globalContext;
-var remoteManifestUrl = "https://raw.githubusercontent.com/pratikjshah/sketch-cloud-library/master/cloud-sketch-library.sketchplugin/Contents/Sketch/manifest.json";
+var remoteManifestUrl = "https://raw.githubusercontent.com/pratikjshah/sketch-cloud-design-system/master/sketch-cloud-design-system.sketchplugin/Contents/Resources/user.config";
 var localDataPath;
 var userConfig;
 var pluginRoot;
@@ -16,7 +16,7 @@ export function onAction(context) {
 
 export function addGDPLibrary(context) {
 	init(context);
-	setupLibrary("basics");
+	//setupLibrary("basics");
 	setupLibrary("gdp");
 }
 
@@ -25,9 +25,14 @@ export function addDemoLibrary(context) {
 	setupLibrary("demo");
 }
 
+export function addLDSLibrary(context) {
+	init(context);
+	setupLibrary("lds-beta");
+}
+
 export function addSCMLibrary(context) {
 	init(context);
-	setupLibrary("basics");
+	//setupLibrary("basics");
   	setupLibrary("scm");
 }
 
