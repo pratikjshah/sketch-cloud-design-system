@@ -7,8 +7,8 @@
   "appcast": "https://raw.githubusercontent.com/pratikjshah/sketch-cloud-design-system/master/appcast.xml",
   "updateURL": "https://github.com/pratikjshah/sketch-cloud-design-system/archive/master.zip",
   "downloadURL": "https://github.com/pratikjshah/sketch-cloud-design-system/archive/master.zip",
-  "homepage": "http://pratikshah.website/",
-  "version": "1.0.4",
+  "homepage": "http://sketch-cloud-design-system.pratikshah.website/",
+  "version": "1.0.6",
   "identifier": "website.pratikshah.sketch-cloud-design-system",
   "compatibleVersion": "52",
   "bundleVersion": "1",
@@ -112,15 +112,13 @@
         "title": "Add Library",
         "items": [
           "addGDPLibrary",
-          "addLDSLibrary",
-          "addDemoLibrary"
+          "addLDSLibrary"
         ]
       },
       {
         "title": "Add Template",
         "items": [
-          "openGDPTemplate",
-          "openDemoTemplate"
+          "openGDPTemplate"
         ]
       },
       "-",
