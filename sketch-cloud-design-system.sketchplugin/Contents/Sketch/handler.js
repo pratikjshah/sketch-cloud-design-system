@@ -2053,7 +2053,7 @@ function setupTemplate(templatesToAdd) {
 
 function reportIssue(context) {
   init(context);
-  openUrlInBrowser("https://github.com/pratikjshah/sketch-cloud-library/issues");
+  openUrlInBrowser("https://github.com/pratikjshah/sketch-cloud-design-system/issues");
 }
 function aboutPratikShah(context) {
   init(context);
@@ -2105,7 +2105,7 @@ function showAvailableUpdateDialog() {
 
   if (response == "1000") {
     //globalContext.document.showMessage("Go to download");
-    openUrlInBrowser("https://github.com/pratikjshah/sketch-cloud-library/archive/master.zip");
+    openUrlInBrowser("https://github.com/pratikjshah/sketch-cloud-design-system/archive/master.zip");
   } else {
     //globalContext.document.showMessage("Check later");
     setUpdateCheckDayOnTomorrow();
@@ -2193,7 +2193,7 @@ function trackEvent(action, label, value) {
   var baseURL = "https://www.google-analytics.com/debug/collect?v=1&ds=" + ds + "&t=event&tid=" + tid + "&cid=" + cid;
   baseURL = "https://www.google-analytics.com/collect?v=1&ds=" + ds + "&t=event&tid=" + tid + "&cid=" + cid;
   var version = userConfig.localVersion;
-  var trackingURL = baseURL + "&ec=SketchCloudLibrary-" + version + "&ea=" + action + "&el=" + label + "&ev=" + value;
+  var trackingURL = baseURL + "&ec=SketchCloudDesignSystem-" + version + "&ea=" + action + "&el=" + label + "&ev=" + value;
   networkRequest(trackingURL);
 }
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/sketch-polyfill-fetch/lib/index.js */ "./node_modules/sketch-polyfill-fetch/lib/index.js")))

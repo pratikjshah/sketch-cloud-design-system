@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>☁️ Design System</title>
+        <link>https://raw.githubusercontent.com/pratikjshah/sketch-cloud-design-system/master/appcast.xml</link>
+        <description>Simplest way to manage your Design System from Cloud :)</description>
+        <language>en</language>
+        <item>
+            <title>v1.0.7</title>
+            <description>
+                <![CDATA[
+                  <h2>Initial Build</h2>
+                ]]>
+            </description>
+            <pubDate>Mon, 6 May 2019 21:54:24 GMT</pubDate>
+            <enclosure
+                url="https://github.com/pratikjshah/sketch-cloud-design-system/archive/v1.0.7.zip"
+                sparkle:version="1.0.7"
+                type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>

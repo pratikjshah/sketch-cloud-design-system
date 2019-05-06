@@ -238,7 +238,7 @@ export function setupTemplate(templatesToAdd) {
 
 export function reportIssue(context) {
 	init(context);
-    openUrlInBrowser("https://github.com/pratikjshah/sketch-cloud-library/issues");
+    openUrlInBrowser("https://github.com/pratikjshah/sketch-cloud-design-system/issues");
 }
 
 export function aboutPratikShah(context) {
@@ -296,7 +296,7 @@ function showAvailableUpdateDialog() {
   var response = alert.runModal();
   if (response == "1000") {
     //globalContext.document.showMessage("Go to download");
-    openUrlInBrowser("https://github.com/pratikjshah/sketch-cloud-library/archive/master.zip");
+    openUrlInBrowser("https://github.com/pratikjshah/sketch-cloud-design-system/archive/master.zip");
   } else {
     //globalContext.document.showMessage("Check later");
     setUpdateCheckDayOnTomorrow();
@@ -393,7 +393,7 @@ export function trackEvent(action, label, value) {
     baseURL = "https://www.google-analytics.com/collect?v=1&ds=" + ds + "&t=event&tid=" + tid + "&cid=" + cid;
     var version = userConfig.localVersion;
 
-    var trackingURL = baseURL + "&ec=SketchCloudLibrary-" + version + "&ea=" + action + "&el=" + label + "&ev=" + value;
+    var trackingURL = baseURL + "&ec=SketchCloudDesignSystem-" + version + "&ea=" + action + "&el=" + label + "&ev=" + value;
     networkRequest(trackingURL);
 
 }
