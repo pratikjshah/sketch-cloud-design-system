@@ -1,6 +1,6 @@
-<img src="https://raw.githubusercontent.com/pratikjshah/static-contents/master/recordings/design-system.png" alt="☁️ Sketch Cloud Design System" width="200" align="right" />
-
 # Sketch Cloud Design System
+
+<img src="https://raw.githubusercontent.com/pratikjshah/static-contents/master/recordings/design-system.png" alt="☁️ Sketch Cloud Design System" width="200" align="right" />
 
 Simplest way to <i>view<sup>1</sup></i> and <i>manage<sup>2</sup></i> your Design System in Sketch. <br/>
 
