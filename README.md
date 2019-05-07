@@ -7,7 +7,7 @@ Simplest way to <i>view<sup>1</sup></i> and <i>manage<sup>2</sup></i> your Desig
 This plugin lets you..
 - Share Sketch Library from Cloud
 - Share Documnet Colors, Text and Layer styles
-- Share starter Templates / Stickers
+- Drag+drop Templates / Stickers
 - Browse Sketch symbols and documentation in one place
 - Gives you access control
 - Ability to rollout Library updates
