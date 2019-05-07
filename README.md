@@ -29,6 +29,8 @@
   <sub>This is an early BETA release of the plugin.</sub>
 </div>
 
+<br/>
+
 <p align="center"><img width=100% src="https://raw.githubusercontent.com/pratikjshah/static-contents/master/recordings/sticker-browser.gif"></p>
 
 <br/>
@@ -67,7 +69,7 @@ A Plugin that lets you share and collaborate your Design System with others, it 
 <br/>
 <br/>
 
----
+
 
 #### Contributing
 
