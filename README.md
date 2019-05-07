@@ -16,7 +16,6 @@ This plugin lets you..
 
 [![GitHub Release](https://github-basic-badges.herokuapp.com/release/pratikjshah/sketch-cloud-design-system.svg)]()
 [![GitHub Download Count](https://github-basic-badges.herokuapp.com/downloads/pratikjshah/sketch-cloud-design-system/total.svg)]()
-[![GitHub Issues Open](https://github-basic-badges.herokuapp.com/issues/pratikjshah/sketch-cloud-design-system.svg)]()
 [![GitHub License](https://github-basic-badges.herokuapp.com/license/pratikjshah/sketch-cloud-design-system.svg)]()
 
 <div>
