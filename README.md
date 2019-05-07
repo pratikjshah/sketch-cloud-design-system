@@ -1,62 +1,41 @@
-<a href="http://sketch-cloud-design-system.pratikshah.website" align="right"><img src="https://raw.githubusercontent.com/pratikjshah/static-contents/master/recordings/design-system.png" alt="☁️ Sketch Cloud Design System" width="160" align="right" /></a>
+# ☁️ Sketch Cloud Design System Manager
 
-# Sketch Cloud Design System
-Simplest way to manage your Design System in Sketch.
+<img src="https://raw.githubusercontent.com/pratikjshah/static-contents/master/recordings/design-system.png" alt="☁️ Sketch Cloud Design System" width="200" align="right" />
+
+Simplest way to <i>view<sup>1</sup></i> and <i>manage<sup>2</sup></i> your Design System in Sketch. <br/>
+
+This plugin lets you..
+- Share Sketch Library from Cloud
+- Share Documnet Colors, Text and Layer styles
+- Share starter Templates / Stickers
+- Browse Sketch symbols and documentation in one place
+- Gives you access control
+- Ability to rollout Library updates
+- `New` Share instances of the Symbol
+- `New` It works offline
+
+> <sub>***Note:***
+> Sketch Cloud Design System is an early BETA release plugin, so to onboard new Design System please reach out to me.</sub>
 
 [![GitHub Release](https://github-basic-badges.herokuapp.com/release/pratikjshah/sketch-cloud-design-system.svg)]()
 [![GitHub Download Count](https://github-basic-badges.herokuapp.com/downloads/pratikjshah/sketch-cloud-design-system/total.svg)]()
 [![GitHub Issues Open](https://github-basic-badges.herokuapp.com/issues/pratikjshah/sketch-cloud-design-system.svg)]()
 [![GitHub License](https://github-basic-badges.herokuapp.com/license/pratikjshah/sketch-cloud-design-system.svg)]()
 
-
 <div>
-  <h3>
-    <a href="http://sketch-cloud-design-system.pratikshah.website">
-      Website
+  <h4>
+    <a href="https://github.com/pratikjshah/sketch-cloud-design-system/releases/latest/download/sketch-cloud-design-system.sketchplugin.zip">
+      Download
     </a>
     <span> | </span>
     <a href="https://github.com/pratikjshah/sketch-cloud-design-system/wiki">
       Getting Started Docs
     </a>
-    <span> | </span>
-    <a href="https://github.com/pratikjshah/sketch-cloud-design-system/releases/latest/download/sketch-cloud-design-system.sketchplugin.zip">
-      Download
-    </a>
-  </h3>
-  <p><sub>This is an early BETA release of the plugin.</sub></p>
-  <br/>
-  <p align="center"><img width=100% src="https://raw.githubusercontent.com/pratikjshah/static-contents/master/recordings/sticker-browser.gif"></p>
-
+  </h4>
 </div>
-
-
 <br/>
 <br/>
 
-## What does this plugin do?
-
-<p align="center">
-
-[![GitHub Release](https://github-basic-badges.herokuapp.com/release/pratikjshah/sketch-cloud-design-system.svg)]()
-[![GitHub Download Count](https://github-basic-badges.herokuapp.com/downloads/pratikjshah/sketch-cloud-design-system/total.svg)]()
-[![GitHub Issues Open](https://github-basic-badges.herokuapp.com/issues/pratikjshah/sketch-cloud-design-system.svg)]()
-[![GitHub License](https://github-basic-badges.herokuapp.com/license/pratikjshah/sketch-cloud-design-system.svg)]()
-
-</p>
-
-A Plugin that lets you share and collaborate your Design System with others, it includes:
-
-☁️Sketch Library(s) (stored on a cloud) <br/>
-🌈Document Colors, Text Styles and Layer styles <br/>
-🚀Quick starter templates <br/>
-🔍Browse Sketch symbols and Stickers in one place! <br/>
-📖Share instances on Symbols <br/>
-🧙‍And it works offline! <br/>
-
-> PS: I am still working on the plugin, so to onboard new Design System please reach out to me.
-
-#### Quick comparision of offerings
-<p align="center"><img width=100% src="https://raw.githubusercontent.com/pratikjshah/static-contents/master/recordings/features.png"></p>
 
 ## Installation Guide
 
@@ -64,24 +43,33 @@ A Plugin that lets you share and collaborate your Design System with others, it 
 - Un-zip
 - Double-click on the `sketch-cloud-design-system.sketchplugin`
 
-<br/>
-<br/>
+## Usage Overview
 
+### Install Libraries with one click
+You can install multiple libraries with just one click! Head over to <br/>
+☁️ Design System ⟶ Add Library
+<p align="center"><img width=100% src="https://raw.githubusercontent.com/pratikjshah/static-contents/master/recordings/add-library.png"></p>
 
+### Browse Design system in better way
+Don't remember the name of the symbol? - No worries! <br/>
+Hit `cmd + shift + D` to browse all the symbols of the libraries.
+<p align="center"><img width=100% src="https://raw.githubusercontent.com/pratikjshah/static-contents/master/recordings/sticker-browser.gif"></p>
+
+## Roadmap & Feature Ideas
+
+* [ ] Serve Library from Private GitHub
+* [ ] Automate adding new Design System
+> Have an amazing suggestion or an idea, please [share it here](https://github.com/pratikjshah/sketch-cloud-design-system/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
 
 #### Contributing
 
 Lots of room for improvement, let's build it together :) Report and [`issue`](https://github.com/pratikjshah/sketch-cloud-design-system/issues) or request for an exciting [`feature`](https://github.com/pratikjshah/sketch-cloud-design-system/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22).
 
-#### License
+#### Credits and Acknowledgement
 
-Sketch Cloud Library is released under the MIT [`LICENSE`](https://github.com/pratikjshah/sketch-cloud-design-system/blob/master/LICENSE).
-
-#### About
-
-Sketch Cloud Design System is made by [Pratik Shah](http://pratikshah.website).
-
-- Website: [http://pratikshah.website](http://pratikshah.website)
-- Dribbble: [https://dribbble.com/pratikshah](https://dribbble.com/pratikshah)
-- LinkedIn: [https://in.linkedin.com/in/shahpratikj](https://in.linkedin.com/in/shahpratikj)
-- Email: [hello@pratikshah.website](hello@pratikshah.website)
+- [Sketch developers API:](https://developer.sketch.com/reference/api/)
+- Andrew Fiorillo for [Sketch Palettes](https://github.com/andrewfiorillo/sketch-palettes)
+- Roman Nurik for [Stickers](https://github.com/romannurik/Sketch-Stickers)
+- Apple Human Interface Guidelines Team for [iOS Sketch Library](https://developer.apple.com/design/resources/)
+- Google for [Material Theme editor plugin](https://material.io/tools/theme-editor/)
+- Ant Design for [Kitchen - Sketch plugin](https://ant.design/docs/spec/download)
