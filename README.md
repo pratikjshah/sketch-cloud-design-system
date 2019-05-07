@@ -47,12 +47,12 @@ This plugin lets you..
 
 ### Install Libraries with one click
 You can install multiple libraries with just one click! Head over to <br/>
-☁️ Design System ⟶ Add Library
+☁️ Design System ⟶ **Add Library**
 <p align="center"><img width=100% src="https://raw.githubusercontent.com/pratikjshah/static-contents/master/recordings/add-library.png"></p>
 
 ### Browse Design system in better way
 Don't remember the name of the symbol? - No worries! <br/>
-Hit `cmd + shift + D` to browse all the symbols of the libraries.
+Hit **`cmd + shift + D`** to browse all the symbols of the libraries.
 <p align="center"><img width=100% src="https://raw.githubusercontent.com/pratikjshah/static-contents/master/recordings/sticker-browser.gif"></p>
 <br/>
 <br/>
