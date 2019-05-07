@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/pratikjshah/static-contents/master/recordings/design-system.png" alt="☁️ Sketch Cloud Design System" width="200" align="right" />
 
-Simplest way to <i>build<sup>1</sup></i> and <i>manage<sup>2</sup></i> your Design System. Brings design documentation and components together. <br/>
+Simplest way to <i>build</i> and <i>manage</i> your Design System. Brings design documentation and components together. <br/>
 
 This plugin lets you..
 - Share Sketch Library from Cloud
