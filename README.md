@@ -1,15 +1,15 @@
+<a href="http://sketch-cloud-design-system.pratikshah.website" align="right"><img src="https://raw.githubusercontent.com/pratikjshah/static-contents/master/recordings/design-system.png" alt="☁️ Sketch Cloud Design System" width="160" align="right" /></a>
 
-<h1 align="center">
-  <br>
-  <a href="http://sketch-cloud-design-system.pratikshah.website"><img src="https://raw.githubusercontent.com/pratikjshah/sketch-cloud-design-system/master/sketch-cloud-design-system.sketchplugin/Contents/Resources/sketch-design-system-in-cloud.png" alt="☁️ Sketch Cloud Design System" width="200"></a>
-  <br>
-  ☁️ Sketch Cloud Design System
-  <br>
-</h1>
+# Sketch Cloud Design System
+Simplest way to manage your Design System in Sketch.
 
-<h4 align="center">Simplest way to manage your Design System in Sketch.</h4>
+[![GitHub Release](https://github-basic-badges.herokuapp.com/release/pratikjshah/sketch-cloud-design-system.svg)]()
+[![GitHub Download Count](https://github-basic-badges.herokuapp.com/downloads/pratikjshah/sketch-cloud-design-system/total.svg)]()
+[![GitHub Issues Open](https://github-basic-badges.herokuapp.com/issues/pratikjshah/sketch-cloud-design-system.svg)]()
+[![GitHub License](https://github-basic-badges.herokuapp.com/license/pratikjshah/sketch-cloud-design-system.svg)]()
 
-<div align="center">
+
+<div>
   <h3>
     <a href="http://sketch-cloud-design-system.pratikshah.website">
       Website
@@ -23,15 +23,12 @@
       Download
     </a>
   </h3>
+  <p><sub>This is an early BETA release of the plugin.</sub></p>
+  <br/>
+  <p align="center"><img width=100% src="https://raw.githubusercontent.com/pratikjshah/static-contents/master/recordings/sticker-browser.gif"></p>
+
 </div>
 
-<div align="center">
-  <sub>This is an early BETA release of the plugin.</sub>
-</div>
-
-<br/>
-
-<p align="center"><img width=100% src="https://raw.githubusercontent.com/pratikjshah/static-contents/master/recordings/sticker-browser.gif"></p>
 
 <br/>
 <br/>
@@ -39,11 +36,12 @@
 ## What does this plugin do?
 
 <p align="center">
-  
+
 [![GitHub Release](https://github-basic-badges.herokuapp.com/release/pratikjshah/sketch-cloud-design-system.svg)]()
 [![GitHub Download Count](https://github-basic-badges.herokuapp.com/downloads/pratikjshah/sketch-cloud-design-system/total.svg)]()
 [![GitHub Issues Open](https://github-basic-badges.herokuapp.com/issues/pratikjshah/sketch-cloud-design-system.svg)]()
 [![GitHub License](https://github-basic-badges.herokuapp.com/license/pratikjshah/sketch-cloud-design-system.svg)]()
+
 </p>
 
 A Plugin that lets you share and collaborate your Design System with others, it includes:
