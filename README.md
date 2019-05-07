@@ -30,18 +30,13 @@ This plugin lets you..
     </a>
   </h4>
 </div>
-<br/>
-<br/>
 
 ## Installation Guide
-
 - [⬇️Download](https://github.com/pratikjshah/sketch-cloud-design-system/releases/latest/download/sketch-cloud-design-system.sketchplugin.zip) the latest release of the plugin
 - Un-zip
 - Double-click on the `sketch-cloud-design-system.sketchplugin`
-<br/>
-<br/>
 
-## Usage Overview
+# Usage Overview
 
 > <i>**Note:** Sketch Cloud Design System is an early BETA release plugin, so to onboard new Design System please reach out to me.</i>
 
