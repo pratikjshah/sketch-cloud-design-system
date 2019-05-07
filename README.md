@@ -14,9 +14,6 @@ This plugin lets you..
 - `New` Share instances of the Symbol
 - `New` It works offline
 
-> <sub>***Note:***
-> Sketch Cloud Design System is an early BETA release plugin, so to onboard new Design System please reach out to me.</sub>
-
 [![GitHub Release](https://github-basic-badges.herokuapp.com/release/pratikjshah/sketch-cloud-design-system.svg)]()
 [![GitHub Download Count](https://github-basic-badges.herokuapp.com/downloads/pratikjshah/sketch-cloud-design-system/total.svg)]()
 [![GitHub Issues Open](https://github-basic-badges.herokuapp.com/issues/pratikjshah/sketch-cloud-design-system.svg)]()
@@ -36,14 +33,17 @@ This plugin lets you..
 <br/>
 <br/>
 
-
 ## Installation Guide
 
 - [⬇️Download](https://github.com/pratikjshah/sketch-cloud-design-system/releases/latest/download/sketch-cloud-design-system.sketchplugin.zip) the latest release of the plugin
 - Un-zip
 - Double-click on the `sketch-cloud-design-system.sketchplugin`
+<br/>
+<br/>
 
 ## Usage Overview
+
+> <i>**Note:** Sketch Cloud Design System is an early BETA release plugin, so to onboard new Design System please reach out to me.</i>
 
 ### Install Libraries with one click
 You can install multiple libraries with just one click! Head over to <br/>
@@ -54,6 +54,8 @@ You can install multiple libraries with just one click! Head over to <br/>
 Don't remember the name of the symbol? - No worries! <br/>
 Hit `cmd + shift + D` to browse all the symbols of the libraries.
 <p align="center"><img width=100% src="https://raw.githubusercontent.com/pratikjshah/static-contents/master/recordings/sticker-browser.gif"></p>
+<br/>
+<br/>
 
 ## Roadmap & Feature Ideas
 
@@ -67,7 +69,7 @@ Lots of room for improvement, let's build it together :) Report and [`issue`](ht
 
 #### Credits and Acknowledgement
 
-- [Sketch developers API:](https://developer.sketch.com/reference/api/)
+- Sketch [Developers API](https://developer.sketch.com/reference/api/)
 - Andrew Fiorillo for [Sketch Palettes](https://github.com/andrewfiorillo/sketch-palettes)
 - Roman Nurik for [Stickers](https://github.com/romannurik/Sketch-Stickers)
 - Apple Human Interface Guidelines Team for [iOS Sketch Library](https://developer.apple.com/design/resources/)
