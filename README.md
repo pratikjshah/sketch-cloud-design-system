@@ -9,14 +9,6 @@
 
 <h4 align="center">Simplest way to manage your Design System in Sketch.</h4>
 
-<p align="center">
-  
-[![GitHub Release](https://github-basic-badges.herokuapp.com/release/pratikjshah/sketch-cloud-design-system.svg)]()
-[![GitHub Download Count](https://github-basic-badges.herokuapp.com/downloads/pratikjshah/sketch-cloud-design-system/total.svg)]()
-[![GitHub Issues Open](https://github-basic-badges.herokuapp.com/issues/pratikjshah/sketch-cloud-design-system.svg)]()
-[![GitHub License](https://github-basic-badges.herokuapp.com/license/pratikjshah/sketch-cloud-design-system.svg)]()
-</p>
-
 <div align="center">
   <h3>
     <a href="http://sketch-cloud-design-system.pratikshah.website">
@@ -36,13 +28,21 @@
 <div align="center">
   <sub>This is an early BETA release of the plugin.</sub>
 </div>
-<br/>
-<br/>
-<br/>
 
 <p align="center"><img width=100% src="https://raw.githubusercontent.com/pratikjshah/static-contents/master/recordings/sticker-browser.gif"></p>
 
+<br/>
+<br/>
+
 ## What does this plugin do?
+
+<p align="center">
+  
+[![GitHub Release](https://github-basic-badges.herokuapp.com/release/pratikjshah/sketch-cloud-design-system.svg)]()
+[![GitHub Download Count](https://github-basic-badges.herokuapp.com/downloads/pratikjshah/sketch-cloud-design-system/total.svg)]()
+[![GitHub Issues Open](https://github-basic-badges.herokuapp.com/issues/pratikjshah/sketch-cloud-design-system.svg)]()
+[![GitHub License](https://github-basic-badges.herokuapp.com/license/pratikjshah/sketch-cloud-design-system.svg)]()
+</p>
 
 A Plugin that lets you share and collaborate your Design System with others, it includes:
 
@@ -63,6 +63,9 @@ A Plugin that lets you share and collaborate your Design System with others, it 
 - [⬇️Download](https://github.com/pratikjshah/sketch-cloud-design-system/releases/latest/download/sketch-cloud-design-system.sketchplugin.zip) the latest release of the plugin
 - Un-zip
 - Double-click on the `sketch-cloud-design-system.sketchplugin`
+
+<br/>
+<br/>
 
 ---
 
