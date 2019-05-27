@@ -6,6 +6,19 @@
         <description>Simplest way to manage your Design System from Cloud :)</description>
         <language>en</language>
         <item>
+            <title>v1.0.9</title>
+            <description>
+                <![CDATA[
+                  <h2>Removing conflict</h2>
+                ]]>
+            </description>
+            <pubDate>Mon, 27 May 2019 21:54:24 GMT</pubDate>
+            <enclosure
+                url="https://github.com/pratikjshah/sketch-cloud-design-system/archive/v1.0.6.zip"
+                sparkle:version="1.0.6"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>v1.0.6</title>
             <description>
                 <![CDATA[

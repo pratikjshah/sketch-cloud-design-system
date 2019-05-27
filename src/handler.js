@@ -139,9 +139,9 @@ export function addNewLibrary(url) {
 		  (err, library) => {
 		    if (err) {
 		      // oh no, failed to load the library
-		      console.log("Something went wrong! \n" + err);
+		      // console.log("Something went wrong! \n" + err);
 		    } else {
-		      console.log("Done");
+		      // console.log("Done");
 		    }
 		  }
 		);
@@ -262,8 +262,8 @@ export function manageUpdate(remoteManifest, isDailyCheck) {
 		showMsg(userConfig.name + ": "+ userConfig.localVersion + " is out of date! Please check for updates.");
 	}*/
 
-    if (remoteManifest.version) {
-        if (userConfig.localVersion == remoteManifest.version) {
+    if (remoteManifest.localVersion) {
+        if (userConfig.localVersion == remoteManifest.localVersion) {
         	if(!isDailyCheck) {
         		showMsg("🤘Yo🤘! You are using the latest version of " + userConfig.name);
         	}
@@ -352,7 +352,7 @@ export function readLocalData(path) {
 
 export function networkRequest(url, callBackFun) {
 
-	console.log("in networkRequest: \n" + url + " \n " + callBackFun);
+	// console.log("in networkRequest: \n" + url + " \n " + callBackFun);
 
 	return fetch(url)
 	  .then(function (response) {
@@ -365,16 +365,16 @@ export function networkRequest(url, callBackFun) {
 			  return response.json();
 			})
 	  .then(function (result) {
-			  console.log('Response Params: \n url: ' + url + " \n callBackFun: " + callBackFun);
-			  console.log(result);
+			  // console.log('Response Params: \n url: ' + url + " \n callBackFun: " + callBackFun);
+			  // console.log(result);
 			  if(callBackFun !== 'undefined') {
 			  	callBackFun(result);
 			  }
 			  return result;
 			})
 	  .catch(function (error) {
-			  console.log('Params: \n url: ' + url + " \n callBackFun: " + callBackFun);
-			  console.log('Looks like there was a problem: \n', error);
+			  // console.log('Params: \n url: ' + url + " \n callBackFun: " + callBackFun);
+			  // console.log('Looks like there was a problem: \n', error);
 			});
 }
 

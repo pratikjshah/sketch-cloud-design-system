@@ -8,32 +8,11 @@
   "updateURL": "https://github.com/pratikjshah/sketch-cloud-design-system/archive/master.zip",
   "downloadURL": "https://github.com/pratikjshah/sketch-cloud-design-system/archive/master.zip",
   "homepage": "http://sketch-cloud-design-system.pratikshah.website/",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "identifier": "website.pratikshah.sketch-cloud-design-system",
   "compatibleVersion": "52",
   "bundleVersion": "1",
   "commands": [
-    {
-      "script": "commands.js",
-      "handlers": {
-        "run": "onShowStickers"
-      },
-      "name": "🔍 View Design System",
-      "shortcut": "cmd shift d",
-      "identifier": "show_stickers",
-      "description": "Show or hide Design System window.",
-      "icon": "icon-menu.png"
-    },
-    {
-      "script": "commands.js",
-      "handlers": {
-        "run": "onClearCache"
-      },
-      "name": "🧹 Clear Library Index",
-      "identifier": "clear_cache",
-      "description": "Clear the Stickers library index for troubleshooting purposes.",
-      "icon": "icon-menu.png"
-    },
     {
       "script": "handler.js",
       "handler": "addGDPLibrary",
@@ -106,8 +85,6 @@
   ],
   "menu": {
     "items": [
-      "show_stickers",
-      "-",
       {
         "title": "Add Library",
         "items": [
@@ -121,10 +98,6 @@
           "openGDPTemplate"
         ]
       },
-      "-",
-      "clear_cache",
-      "checkLibraryUpdates",
-      "-",
       {
         "title": "Settings",
         "items": [
